@@ -1,6 +1,6 @@
-import Title from "../components/Title";
-import Products from "../components/Products";
-import MiniFooter from "../components/MiniFooter";
+import Title from "../components/Start";
+import Products from "../components/Footer";
+import MiniFooter from "../components/Header";
 
 function Home() {
 
