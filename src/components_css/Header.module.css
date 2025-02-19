@@ -1,6 +1,7 @@
 .header {
   background-color: #FAC700;
-  padding: 0.5rem;
+  padding: 1.5rem;
+  height: 106px;
 }
 
 .container {
@@ -31,6 +32,7 @@
 }
 
 .navLink {
+  font-size: 24px;
   text-decoration: none;
   color: inherit;
   position: relative;

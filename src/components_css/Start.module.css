@@ -1,0 +1,106 @@
+.divBlack {
+    background-color: black;
+}
+
+.startSection {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Oscurece la imagen de fondo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.content {
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.highlight {
+  background-color: #fac700;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  color: black;
+}
+
+.italicText {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.menuButton {
+  margin-top: 1.5rem;
+  background-color: #fac700;
+  color: black;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.menuButton:hover {
+  background-color: #e6b500;
+}
+
+/* Responsivo */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .italicText {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .menuButton {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    max-width: 90%;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .menuButton {
+    font-size: 0.8rem;
+    padding: 0.6rem 1rem;
+  }
+}
