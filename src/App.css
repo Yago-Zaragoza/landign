@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Playfair";
+  src: url("./assets/fonts/Playfair/static/Playfair_9pt-SemiBold.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Dynalight";
+  src: url("./assets/fonts/Dynalight/Dynalight-Regular.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
