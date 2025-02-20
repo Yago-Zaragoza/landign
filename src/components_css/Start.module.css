@@ -42,8 +42,6 @@ h1 {
   text-align: center; /* Asegura que el contenido esté centrado */
   display: inline-block;
   white-space: nowrap; /* Evita que se divida en varias líneas */
-  width: 850px;
-  height: 58px;
   letter-spacing: 5.5px;
   padding: 5px;
   padding-top: 15px;
@@ -61,20 +59,16 @@ h1 {
 
 .description {
   display: inline-block;
-  width: 100%;
-  height: 94px;
   font-family: "Poppins";
   font-size: 21px;
   font-weight: 100;
   text-align: center; /* Asegura que el contenido esté centrado */
   letter-spacing: 5px;
-  margin-top: 40px;
+  margin-top: 24px;
 }
 
 .secondDescription {
   display: inline-block;
-  width: 100%;
-  height: 72px;
 }
 
 .menuButton {
@@ -91,8 +85,10 @@ h1 {
   text-align: center; /* Asegura que el contenido esté centrado */
   display: inline-block;
   white-space: nowrap; /* Evita que se divida en varias líneas */
-  width: 285px;
-  height: 75px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .menuButton:hover {
@@ -111,20 +107,18 @@ h1 {
 .Highlight {
   color: black;
   background-color: #fac700;
-  width: 299px;
-  height: 85px;
   border-radius: 50px;
   text-align: center;
   line-height: 85px; /* Alinea verticalmente el texto */
   display: inline-block;
   white-space: nowrap;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .secondHighlight {
   color: white;
   background-color: transparent;
-  width: 350px; /* Ajusta según necesidad */
-  height: 85px;
   border-radius: 50px;
   text-align: center;
   line-height: 85px;
