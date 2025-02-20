@@ -4,7 +4,8 @@
 
 .startSection {
   width: 100%;
-  height: 918px;
+  height: 90vh;
+  margin-top: 10vh;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -16,7 +17,7 @@
 .overlay {
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Oscurece la imagen de fondo */
+  background: rgba(0, 0, 0, 0.52); /* Oscurece la imagen de fondo */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +28,6 @@
 .content {
   color: white;
   width: 900px;
-  padding: 2rem;
 }
 
 h1 {
@@ -37,30 +37,28 @@ h1 {
 
 .italicText {
   font-family: "Dynalight";
-  font-size: 48px;
+  font-size: 34px;
   font-weight: 100;
   text-align: center; /* Asegura que el contenido esté centrado */
   display: inline-block;
   white-space: nowrap; /* Evita que se divida en varias líneas */
   letter-spacing: 5.5px;
-  padding: 5px;
-  padding-top: 15px;
-  padding-left: 15px;
+  padding: .5vw;
+  padding-top: 25px;
 }
 
 .Dynalight {
   color: #fac700;
   text-align: center;
-  line-height: 85px; /* Alinea verticalmente el texto */
   display: inline-block;
   white-space: nowrap;
-  
+  padding-right: .5vw;
 }
 
 .description {
   display: inline-block;
   font-family: "Poppins";
-  font-size: 21px;
+  font-size: 16px;
   font-weight: 100;
   text-align: center; /* Asegura que el contenido esté centrado */
   letter-spacing: 5px;
@@ -69,10 +67,11 @@ h1 {
 
 .secondDescription {
   display: inline-block;
+  max-width: 37vw;
 }
 
 .menuButton {
-  margin-top: 1.5rem;
+  margin-top: 30vh;
   background-color: #fac700;
   color: black;
   border: none;
@@ -98,7 +97,7 @@ h1 {
 .playfairHighlight {
   font-family: "playfair";
   font-weight: 600; /* SemiBold */
-  font-size: 64px;
+  font-size: 48px;
   text-align: center; /* Asegura que el contenido esté centrado */
   display: inline-block;
   white-space: nowrap; /* Evita que se divida en varias líneas */

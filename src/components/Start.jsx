@@ -15,7 +15,7 @@ function Start() {
             <span className={styles.secondHighlight}>UNA EXPERIENCIA</span>
           </h1>
             <p className={styles.italicText}>
-              <span className={styles.Dynalight}>Café</span> <span className={styles.secondDynalight}>de</span> <span className={styles.secondDynalight}>especialidad</span> <span className={styles.secondDynalight}>preparado</span> <span className={styles.secondDynalight}>con</span> <span className={styles.secondDynalight}>pasión</span>
+              <span className={styles.Dynalight}>Café </span><span>de especialidad preparado con pasión</span>
             </p>
             <p className={styles.description}>
               <span className={styles.secondDescription}>VISÍTANOS Y DISFRUTÁ UNA TAZA PERFECTA EN UN AMBIENTE ACOGEDOR</span>
