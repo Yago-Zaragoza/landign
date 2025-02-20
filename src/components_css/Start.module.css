@@ -4,7 +4,7 @@
 
 .startSection {
   width: 100%;
-  height: 100vh;
+  height: 918px;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -21,6 +21,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem;
+  text-align: center;
 }
 
 .content {
@@ -43,24 +44,37 @@ h1 {
   white-space: nowrap; /* Evita que se divida en varias líneas */
   width: 850px;
   height: 58px;
+  letter-spacing: 5.5px;
+  padding: 5px;
+  padding-top: 15px;
+  padding-left: 15px;
 }
 
 .Dynalight {
   color: #fac700;
-  border-radius: 50px;
   text-align: center;
   line-height: 85px; /* Alinea verticalmente el texto */
   display: inline-block;
   white-space: nowrap;
-}
-
-.secondDynalight {
   
 }
 
 .description {
-  font-size: 1rem;
-  margin-top: 1rem;
+  display: inline-block;
+  width: 100%;
+  height: 94px;
+  font-family: "Poppins";
+  font-size: 21px;
+  font-weight: 100;
+  text-align: center; /* Asegura que el contenido esté centrado */
+  letter-spacing: 5px;
+  margin-top: 40px;
+}
+
+.secondDescription {
+  display: inline-block;
+  width: 100%;
+  height: 72px;
 }
 
 .menuButton {
@@ -68,11 +82,17 @@ h1 {
   background-color: #fac700;
   color: black;
   border: none;
-  padding: 0.8rem 1.5rem;
-  font-size: 1rem;
-  border-radius: 25px;
+  border-radius: 50px;
   cursor: pointer;
   transition: background 0.3s ease;
+  font-family: "Inter";
+  font-weight: 300; /* SemiBold */
+  font-size: 32px;
+  text-align: center; /* Asegura que el contenido esté centrado */
+  display: inline-block;
+  white-space: nowrap; /* Evita que se divida en varias líneas */
+  width: 285px;
+  height: 75px;
 }
 
 .menuButton:hover {

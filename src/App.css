@@ -8,7 +8,37 @@
 
 @font-face {
   font-family: "Dynalight";
-  src: url("./assets/fonts/Dynalight/Dynalight-Regular.ttf")
+  src: url("./assets/fonts/Dynalight/Dynalight-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins/Poppins-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter/static/Inter_28pt-Medium.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Libre_Franklin_Light";
+  src: url("./assets/fonts/Libre_Franklin/static/LibreFranklin-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Libre_Franklin_extraLight";
+  src: url("./assets/fonts/Libre_Franklin/static/LibreFranklin-ExtraLight.ttf")
     format("truetype");
   font-weight: 300;
   font-style: normal;

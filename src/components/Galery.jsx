@@ -1,7 +1,11 @@
 function Galery() {
     return (
       <div>
-        
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
       </div>
     );
   }
