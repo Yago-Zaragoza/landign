@@ -1,0 +1,38 @@
+
+.logoImage {
+    height: 60px;
+    margin-right: 0.5rem;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    background-color: #fac700;
+    margin-top: 5vh;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 450px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.logoText {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.logoTextTitle {
+    font-family: "Inter_regular";
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+.logoTextSubTitle {
+    font-family: "Libre_Franklin_extraLight";
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
