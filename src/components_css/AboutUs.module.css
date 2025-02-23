@@ -1,38 +1,125 @@
-
 .logoImage {
-    height: 60px;
-    margin-right: 0.5rem;
+  height: 60px;
+  margin-right: 0.5rem;
 }
 
 .logoContainer {
-    display: flex;
-    align-items: center;
-    background-color: #fac700;
-    margin-top: 5vh;
-    padding-left: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    max-width: 450px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #fac700;
+  margin-top: 5vh;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 450px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .logoText {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
 }
 
 .logoTextTitle {
-    font-family: "Inter_regular";
-    font-weight: 400;
-    font-size: 24px;
-    letter-spacing: 4px;
+  font-family: "Inter_regular";
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 4px;
 }
 
 .logoTextSubTitle {
-    font-family: "Libre_Franklin_extraLight";
-    font-weight: 300;
-    font-size: 18px;
-    letter-spacing: 1.5px;
+  font-family: "Libre_Franklin_extraLight";
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+
+.quoteBox {
+  font-family: "Inter_light_Italic";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fac700;
+  padding: 2vh 1vw;
+  border-radius: 40px;
+  font-size: 24px;
+  text-align: center;
+  z-index: 2;
+  margin-bottom: -3vh;
+  margin-right: 40vw;
+}
+
+.textContainer {
+  font-family: "Inter_light";
+  max-width: 75vw;
+  font-size: 24px;
+  text-align: justify;
+  margin-bottom: 3vh;
+  margin-top: 10vh;
+}
+
+.footer {
+  font-family: "Dynalight";
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Asegura que los elementos ocupen más espacio */
+  width: 90%; /* Aumenta el ancho para distribuir mejor el contenido */
+  font-size: 32px;
+  margin-top: 3vh; /* Asegura que haya separación con el contenido superior */
+  padding: 2vh 4vw; /* Agrega más espacio interno */
+  letter-spacing: 0.2rem;
+}
+
+.specialty,
+.moments {
+  font-style: italic;
+}
+
+.icon {
+  font-size: 2vw;
+  font-weight: bold;
+  background-color: #fac700;
+  padding: 0.5vw 1vw;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  border: 2px solid #fac700;
+  border-radius: 60px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.lineContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5vh 4vw;
+  position: relative;
+}
+
+.lineContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.logoImageFooter {
+    height: 60px;
+    background-color: #fac700;
 }
