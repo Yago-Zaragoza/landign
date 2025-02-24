@@ -39,8 +39,6 @@
 .quoteBox {
   font-family: "Inter_light_Italic";
   display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #fac700;
   padding: 3vh 1vw;
   border-radius: 40px;
@@ -48,15 +46,17 @@
   text-align: center;
   z-index: 2;
   margin-bottom: -3vh;
-  margin-right: 35vw;
+  /* margin-right: 35vw; */
+  margin-left: 4vw;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  justify-content: center;
 }
 
 .textContainer {
   font-family: "Inter_light";
-  max-width: 75vw;
   font-size: 24px;
-  text-align: justify;
+  width: 90%;
+  text-align: left;
   margin-bottom: 3vh;
   margin-top: 10vh;
 }
@@ -106,7 +106,7 @@
 .lineContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   margin: 5vh 4vw;
   position: relative;
