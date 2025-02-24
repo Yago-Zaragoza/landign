@@ -56,11 +56,13 @@ function AboutUs() {
             </div>
             <div className={styles.footer}>
               <span className={styles.specialty}>Café de especialidad</span>
-              <img
-                src={logoBernardina}
-                alt="Logo"
-                className={styles.logoImageFooter}
-              />
+              <div className={styles.logoWrapper}>
+                <img
+                  src={logoBernardina}
+                  alt="Logo"
+                  className={styles.logoImageFooter}
+                />
+              </div>
               <span className={styles.moments}>Momentos únicos</span>
             </div>
           </div>

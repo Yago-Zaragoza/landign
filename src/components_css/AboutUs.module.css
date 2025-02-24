@@ -42,13 +42,14 @@
   justify-content: center;
   align-items: center;
   background-color: #fac700;
-  padding: 2vh 1vw;
+  padding: 3vh 1vw;
   border-radius: 40px;
   font-size: 24px;
   text-align: center;
   z-index: 2;
   margin-bottom: -3vh;
-  margin-right: 40vw;
+  margin-right: 35vw;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .textContainer {
@@ -64,12 +65,12 @@
   font-family: "Dynalight";
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Asegura que los elementos ocupen más espacio */
-  width: 90%; /* Aumenta el ancho para distribuir mejor el contenido */
+  justify-content: space-between;
+  width: 90%;
   font-size: 32px;
-  margin-top: 3vh; /* Asegura que haya separación con el contenido superior */
-  padding: 2vh 4vw; /* Agrega más espacio interno */
+  margin-top: 5vh; /* Asegura espacio suficiente debajo del logo */
   letter-spacing: 0.2rem;
+  position: relative;
 }
 
 .specialty,
@@ -98,7 +99,7 @@
   border: 2px solid #fac700;
   border-radius: 60px;
   backdrop-filter: blur(10px);
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   text-align: center;
 }
 
@@ -119,7 +120,18 @@
   z-index: 1;
 }
 
+.logoWrapper {
+  background-color: #fac700;
+  padding: 6vh 1.2vw;
+  display: flex;
+  border-radius: 40px 40px 0px 0px;
+  position: relative;
+  z-index: 3;
+}
+
 .logoImageFooter {
-    height: 60px;
-    background-color: #fac700;
+  height: 70px;
+  position: relative;
+  z-index: 4;
+  margin-top: -4vh;
 }
