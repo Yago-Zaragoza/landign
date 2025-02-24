@@ -1,0 +1,25 @@
+.sliderContainer {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.title {
+    font-family: "Inter_regular";
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.productContainer {
+    display: flex;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.product {
+    max-width: 10vw;
+}
+
+.productImage {
+    width: 100%;
+}
