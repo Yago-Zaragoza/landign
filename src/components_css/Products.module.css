@@ -12,10 +12,13 @@
 
 .productContainer {
     display: flex;
+    gap: 30px;
 }
 
 .product {
-    max-width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .productImage {
@@ -30,6 +33,7 @@
 .productDescription {
     font-family: "Libre_Franklin_extraLight";
     font-size: 14px;
+    text-align: center;
 }
 
 /* Botones de navegación personalizados */
@@ -45,11 +49,9 @@
 .swiperButtonPrev {
   background-image: url('../../public/img/arrow_left.png');
   background-position: left;
-  margin-right: 3vw;
 }
 
 .swiperButtonNext {
   background-image: url('../../public/img/arrow_right.png');
   background-position: right;
-  margin-left: 1vw;
 }

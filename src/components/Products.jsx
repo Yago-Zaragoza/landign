@@ -67,7 +67,7 @@ function Products() {
 
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={30}
+          spaceBetween={40}
           slidesPerView={4}
           navigation={{
             nextEl: `.${styles.swiperButtonNext}`,
