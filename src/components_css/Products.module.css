@@ -12,14 +12,44 @@
 
 .productContainer {
     display: flex;
-    margin-left: 20vw;
-    margin-right: 20vw;
 }
 
 .product {
-    max-width: 10vw;
+    max-width: 15vw;
 }
 
 .productImage {
     width: 100%;
+}
+
+.productTitle {
+    font-family: "Libre_Franklin_extraLight";
+    font-size: 24px;
+}
+
+.productDescription {
+    font-family: "Libre_Franklin_extraLight";
+    font-size: 14px;
+}
+
+/* Botones de navegación personalizados */
+.swiperButtonPrev,
+.swiperButtonNext {
+  width: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 10;
+  margin-bottom: 13vh;
+}
+
+.swiperButtonPrev {
+  background-image: url('../../public/img/arrow_left.png');
+  background-position: left;
+  margin-right: 3vw;
+}
+
+.swiperButtonNext {
+  background-image: url('../../public/img/arrow_right.png');
+  background-position: right;
+  margin-left: 1vw;
 }

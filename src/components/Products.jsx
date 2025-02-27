@@ -63,11 +63,16 @@ function Products() {
       <div className={styles.underline}></div>
 
       <div className={styles.productContainer}>
+        <div className={styles.swiperButtonPrev}></div>
+
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={30}
           slidesPerView={4}
-          navigation
+          navigation={{
+            nextEl: `.${styles.swiperButtonNext}`,
+            prevEl: `.${styles.swiperButtonPrev}`,
+          }}
           loop={true}
         >
           {products.map((product) => (
@@ -78,12 +83,14 @@ function Products() {
                   alt={product.name}
                   className={styles.productImage}
                 />
-                <h3 className="productTitle">{product.name}</h3>
-                <p className="productDescription">{product.description}</p>
+                <h3 className={styles.productTitle}>{product.name}</h3>
+                <p className={styles.productDescription}>{product.description}</p>
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
+
+        <div className={styles.swiperButtonNext}></div>
       </div>
 
       <button className="menuButton">Ver menú</button>
