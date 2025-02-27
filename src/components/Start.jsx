@@ -1,5 +1,5 @@
 import styles from "../components_css/Start.module.css";
-import backgroundImage from "../../public/assets/start_background.jpg";
+import backgroundImage from "../../public/img/start_background.jpg";
 
 function Start() {
   return (

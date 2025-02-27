@@ -1,5 +1,5 @@
 import styles from "../components_css/AboutUs.module.css";
-import logoBernardina from "../../public/assets/logo_bernardina.png";
+import logoBernardina from "../../public/img/logo_bernardina.png";
 
 function AboutUs() {
   return (

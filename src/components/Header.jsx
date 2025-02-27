@@ -1,7 +1,6 @@
 import  { useState } from 'react';
-import { FaInstagram, FaWhatsapp, FaTwitter } from 'react-icons/fa';
 import styles from '../components_css/Header.module.css';
-import logoBernardina from '../../public/assets/logo_bernardina.png';
+import logoBernardina from '../../public/img/logo_bernardina.png';
 
 
 function Header() {
