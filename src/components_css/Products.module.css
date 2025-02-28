@@ -22,18 +22,22 @@
 }
 
 .productImage {
-    width: 100%;
+    width: 85%;
 }
 
 .productTitle {
     font-family: "Libre_Franklin_extraLight";
     font-size: 24px;
+    font-weight: 100;
+    margin-top: 0.5vh;
 }
 
 .productDescription {
     font-family: "Libre_Franklin_extraLight";
     font-size: 14px;
     text-align: center;
+    width: 222px;
+    margin-top: 0.5vh;
 }
 
 /* Botones de navegación personalizados */
@@ -55,3 +59,7 @@
   background-image: url('../../public/img/arrow_right.png');
   background-position: right;
 }
+
+.customSwiper .swiper-slide {
+    margin-right: 0px !important;
+  }

@@ -67,16 +67,19 @@ function Products() {
 
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={40}
-          slidesPerView={4}
+          spaceBetween={20} /* Espacio entre productos */
+          slidesPerView={4} /* Muestra exactamente 4 imágenes */
+          centeredSlides={false} /* Centra el carrusel */
+          loop={true} /* Mantiene el scroll infinito */
+          slidesOffsetBefore={20} /* Espacio a la izquierda */
+          slidesOffsetAfter={0} /* Espacio a la derecha */
           navigation={{
             nextEl: `.${styles.swiperButtonNext}`,
             prevEl: `.${styles.swiperButtonPrev}`,
           }}
-          loop={true}
         >
           {products.map((product) => (
-            <SwiperSlide key={product.id}>
+            <SwiperSlide key={product.id} style={{ marginRight: "0px" }}>
               <div className={styles.product}>
                 <img
                   src={product.image}
