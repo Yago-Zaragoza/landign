@@ -30,6 +30,9 @@
 .content {
   color: white;
   width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -45,7 +48,7 @@ h1 {
   display: inline-block;
   white-space: nowrap; /* Evita que se divida en varias líneas */
   letter-spacing: 5.5px;
-  padding: .5vw;
+  padding: 0.5vw;
   padding-top: 25px;
 }
 
@@ -54,7 +57,7 @@ h1 {
   text-align: center;
   display: inline-block;
   white-space: nowrap;
-  padding-right: .5vw;
+  padding-right: 0.5vw;
 }
 
 .description {
@@ -73,7 +76,7 @@ h1 {
 }
 
 .menuButton {
-  margin-top: 40vh;
+  margin-top: 35vh;
   background-color: #fac700;
   color: black;
   border: none;
@@ -84,12 +87,13 @@ h1 {
   font-weight: 300; /* SemiBold */
   font-size: 32px;
   text-align: center; /* Asegura que el contenido esté centrado */
-  display: inline-block;
+  display: block;
   white-space: nowrap; /* Evita que se divida en varias líneas */
   padding-left: 70px;
   padding-right: 70px;
   padding-top: 20px;
   padding-bottom: 20px;
+  max-width: 20vw;
 }
 
 .menuButton:hover {
@@ -127,7 +131,6 @@ h1 {
   white-space: nowrap;
   padding: 0 1rem;
 }
-
 
 /* Responsivo */
 @media (max-width: 1024px) {

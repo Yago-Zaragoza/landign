@@ -79,7 +79,7 @@ function Products() {
           }}
         >
           {products.map((product) => (
-            <SwiperSlide key={product.id} style={{ marginRight: "0px" }}>
+            <SwiperSlide key={product.id}>
               <div className={styles.product}>
                 <img
                   src={product.image}

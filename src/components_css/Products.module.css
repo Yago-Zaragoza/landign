@@ -22,7 +22,7 @@
 }
 
 .productImage {
-    width: 85%;
+    max-width: 85%;
 }
 
 .productTitle {
@@ -36,7 +36,7 @@
     font-family: "Libre_Franklin_extraLight";
     font-size: 14px;
     text-align: center;
-    width: 222px;
+    max-width: 222px;
     margin-top: 0.5vh;
 }
 
