@@ -69,12 +69,10 @@ function Products() {
 
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={20} /* Espacio entre productos */
+          spaceBetween={30} /* Espacio entre productos */
           slidesPerView={4} /* Muestra exactamente 4 imágenes */
           centeredSlides={false} /* Centra el carrusel */
           loop={true} /* Mantiene el scroll infinito */
-          slidesOffsetBefore={20} /* Espacio a la izquierda */
-          slidesOffsetAfter={0} /* Espacio a la derecha */
           navigation={{
             nextEl: `.${styles.swiperButtonNext}`,
             prevEl: `.${styles.swiperButtonPrev}`,
@@ -99,8 +97,9 @@ function Products() {
 
         <div className={styles.swiperButtonNext}></div>
       </div>
-
-      <button className="menuButton">Ver menú</button>
+      <div className={styles.menuButtonContainer}>
+        <button className={styles.menuButton}>Ver menú</button>
+      </div>
     </div>
   );
 }

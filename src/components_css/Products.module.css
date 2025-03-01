@@ -1,6 +1,7 @@
 .sliderContainer {
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 200px;
 }
 
 .titleContainer {
@@ -23,17 +24,17 @@
 .underline_one {
   width: 34.3vw;
   height: 3px; /* Grosor de las líneas */
-  background-color: #f3c53c; /* Color amarillo */
+  background-color: #fac700; /* Color amarillo */
   margin-top: 1vh;
 }
 
 .underline_two {
-    width: 21vw;
-    height: 3px;
-    background-color: #f3c53c;
-    margin-top: 0.7vh;
-    align-self: flex-start;
-    margin-left: 7.4vw;
+  width: 21vw;
+  height: 3px;
+  background-color: #fac700;
+  margin-top: 0.7vh;
+  align-self: flex-start;
+  margin-left: 7.4vw;
 }
 
 .productContainer {
@@ -89,4 +90,31 @@
 
 .customSwiper .swiper-slide {
   margin-right: 0px !important;
+}
+
+.menuButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.menuButton {
+  margin-top: 5vh;
+  background-color: #fac700;
+  color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-family: "Inter";
+  font-weight: 300; /* SemiBold */
+  font-size: 32px;
+  text-align: center; /* Asegura que el contenido esté centrado */
+  display: block;
+  white-space: nowrap; /* Evita que se divida en varias líneas */
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 20vw;
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
 }
