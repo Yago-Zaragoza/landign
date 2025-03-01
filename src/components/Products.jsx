@@ -59,9 +59,11 @@ const products = [
 function Products() {
   return (
     <div className={styles.sliderContainer}>
-      <h2 className={styles.title}>Productos destacados</h2>
-      <div className={styles.underline}></div>
-
+      <div className={styles.titleContainer}>
+        <h2 className={styles.title}>Productos destacados</h2>
+        <div className={styles.underline_one}></div>
+        <div className={styles.underline_two}></div>
+      </div>
       <div className={styles.productContainer}>
         <div className={styles.swiperButtonPrev}></div>
 
@@ -87,7 +89,9 @@ function Products() {
                   className={styles.productImage}
                 />
                 <h3 className={styles.productTitle}>{product.name}</h3>
-                <p className={styles.productDescription}>{product.description}</p>
+                <p className={styles.productDescription}>
+                  {product.description}
+                </p>
               </div>
             </SwiperSlide>
           ))}

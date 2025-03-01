@@ -1,43 +1,70 @@
 .sliderContainer {
-    margin-right: 100px;
-    margin-left: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 49vw; /* Máximo ancho deseado */
+  width: 100%;
+  flex-direction: column;
 }
 
 .title {
-    font-family: "Inter_regular";
-    font-size: 40px;
-    font-weight: 400;
-    letter-spacing: 4px;
+  font-family: "Inter_regular";
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.underline_one {
+  width: 34.3vw;
+  height: 3px; /* Grosor de las líneas */
+  background-color: #f3c53c; /* Color amarillo */
+  margin-top: 1vh;
+}
+
+.underline_two {
+    width: 21vw;
+    height: 3px;
+    background-color: #f3c53c;
+    margin-top: 0.7vh;
+    align-self: flex-start;
+    margin-left: 7.4vw;
 }
 
 .productContainer {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
+  margin-top: 5vh;
 }
 
 .product {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .productImage {
-    max-width: 85%;
+  max-width: 85%;
 }
 
 .productTitle {
-    font-family: "Libre_Franklin_extraLight";
-    font-size: 24px;
-    font-weight: 100;
-    margin-top: 0.5vh;
+  font-family: "Libre_Franklin_extraLight";
+  font-size: 24px;
+  font-weight: 100;
+  margin-top: 0.5vh;
 }
 
 .productDescription {
-    font-family: "Libre_Franklin_extraLight";
-    font-size: 14px;
-    text-align: center;
-    max-width: 222px;
-    margin-top: 0.5vh;
+  font-family: "Libre_Franklin_extraLight";
+  font-size: 14px;
+  text-align: center;
+  max-width: 222px;
+  margin-top: 0.5vh;
 }
 
 /* Botones de navegación personalizados */
@@ -51,15 +78,15 @@
 }
 
 .swiperButtonPrev {
-  background-image: url('../../public/img/arrow_left.png');
+  background-image: url("../../public/img/arrow_left.png");
   background-position: left;
 }
 
 .swiperButtonNext {
-  background-image: url('../../public/img/arrow_right.png');
+  background-image: url("../../public/img/arrow_right.png");
   background-position: right;
 }
 
 .customSwiper .swiper-slide {
-    margin-right: 0px !important;
-  }
+  margin-right: 0px !important;
+}
