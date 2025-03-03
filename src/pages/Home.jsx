@@ -10,22 +10,22 @@ import styles from "./Home.module.css";
 function Home() {
   return (
     <>
-      <div className={styles.fullWidth}>
+      <div id="home" className={styles.fullWidth}>
         <Header />
       </div>
-      <div className={styles.fullWidth}>
+      <div id="start" className={styles.fullWidth}>
         <Start />
       </div>
-      <div className={styles.fullWidth}>
+      <div id="about" className={styles.fullWidth}>
         <AboutUs />
       </div>
-      <div className={styles.fullWidth}>
+      <div id="products" className={styles.fullWidth}>
         <Products />
       </div>
-      <div className={styles.fullWidth}>
+      <div id="location" className={styles.fullWidth}>
         <Location />
       </div>
-      <div className={styles.fullWidth}>
+      <div id="gallery" className={styles.fullWidth}>
         <Galery />
       </div>
       <div className={styles.fullWidth}>

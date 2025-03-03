@@ -1,11 +1,10 @@
 .logoImage {
-  height: 60px;
+  height: 73px;
   margin-right: 0.5rem;
 }
 
 .logoContainer {
-  display: flex
-;
+  display: flex;
   align-items: center;
   background-color: #fac700;
   margin-top: 5vh;

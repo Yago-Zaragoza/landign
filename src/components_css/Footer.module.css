@@ -1,0 +1,175 @@
+.footerContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;
+}
+
+.line {
+  width: 100%;
+  height: 3px; /* Grosor de las líneas */
+  background-color: #fac700; /* Color amarillo */
+  margin-bottom: 3vh;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  background-color: #fac700;
+  padding-left: 7vw;
+  padding-right: 4vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  max-width: 535px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logoImage {
+  height: 73px;
+  margin-right: 0.5rem;
+}
+
+.logoText {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoTextTitle {
+  font-family: "Inter_regular";
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 4px;
+}
+
+.logoTextSubTitle {
+  font-family: "Libre_Franklin_extraLight";
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.businessName h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.businessName p {
+  font-size: 14px;
+  color: #666;
+}
+
+.navMenu {
+  display: flex;
+  gap: 20px;
+}
+
+.navMenu a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navMenu a:hover {
+  color: #fac700;
+}
+
+.middleSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contactInfo {
+  font-size: 14px;
+  color: #444;
+}
+
+.menuButton {
+  background: #fac700;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+}
+
+.menuButton:hover {
+  background: #e0b500;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 10px;
+}
+
+.socialIcons img {
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.socialIcons img:hover {
+  opacity: 0.7;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+  margin: 10px 0;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.reviewButton {
+  background: #fac700;
+  padding: 8px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+}
+
+.reviewButton:hover {
+  background: #e0b500;
+}
+
+.developer {
+  font-weight: bold;
+}
+
+.developer span {
+  color: black;
+  font-weight: 600;
+}
