@@ -61,6 +61,14 @@
 }
 
 @font-face {
+  font-family: "Libre_Franklin_Regular";
+  src: url("./assets/fonts/Libre_Franklin/static/LibreFranklin-Regular.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Libre_Franklin_Light";
   src: url("./assets/fonts/Libre_Franklin/static/LibreFranklin-Light.ttf")
     format("truetype");

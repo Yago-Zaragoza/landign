@@ -17,8 +17,8 @@
   display: flex;
   align-items: center;
   background-color: #fac700;
-  padding-left: 7vw;
-  padding-right: 4vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
   padding-top: 2vh;
   padding-bottom: 2vh;
   max-width: 535px;
@@ -76,15 +76,14 @@
 }
 
 .navMenu {
+  font-family: "Libre_Franklin_Regular";
+  font-size: 24px;
   display: flex;
   gap: 20px;
+  letter-spacing: 3px;
 }
 
 .navMenu a {
-  text-decoration: none;
-  font-size: 16px;
-  color: black;
-  font-weight: 500;
   transition: 0.3s;
 }
 
@@ -101,8 +100,15 @@
 }
 
 .contactInfo {
-  font-size: 14px;
-  color: #444;
+  font-family: "Libre_Franklin_extraLight";
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-left: 5.5vw;
+  margin-top: 1.5vh;
+}
+
+.contactInfo p {
+  margin-top: 2vh;
 }
 
 .menuButton {
@@ -147,18 +153,25 @@
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  font-size: 14px;
-  color: #666;
 }
 
 .reviewButton {
-  background: #fac700;
-  padding: 8px 15px;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-  transition: 0.3s;
+  font-family: "Libre_Franklin_extraLight";
+  font-size: 20px;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  background-color: #fac700;
+  padding-left: 5.5vw;
+  padding-right: 2vw;
+  margin-top: 3vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  max-width: 535px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 3vh;
 }
 
 .reviewButton:hover {

@@ -90,12 +90,9 @@ function Footer() {
         </div>
       </div>
 
-      {/* Línea divisoria */}
-      <div className={styles.divider}></div>
-
       {/* Sección final con derechos y desarrollador */}
       <div className={styles.bottomSection}>
-        <a href="#" className={styles.reviewButton}>
+        <a className={styles.reviewButton}>
           Calificá nuestro servicio
         </a>
         <p>©2024 TOSTADO CAFÉ CLUB | Todos los derechos reservados.</p>
