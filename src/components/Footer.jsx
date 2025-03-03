@@ -77,28 +77,31 @@ function Footer() {
           <p>Correo: Bernardina@gmail.com</p>
         </div>
 
-        {/* Botón de menú */}
-        <a href="#" className={styles.menuButton}>
-          Conocé nuestro menú
-        </a>
+        <div className={styles.secondMiddleSection}>
+          {/* Botón de menú */}
+          <a href="#" className={styles.menuButton}>
+            Conocé nuestro menú
+          </a>
 
-        {/* Redes sociales */}
-        <div className={styles.socialIcons}>
-          <img src={instagramIcon} alt="Instagram" />
-          <img src={whatsappIcon} alt="WhatsApp" />
-          <img src={twitterIcon} alt="Twitter" />
+          {/* Redes sociales */}
+          <div className={styles.socialIcons}>
+            <img src={instagramIcon} alt="Instagram" />
+            <img src={whatsappIcon} alt="WhatsApp" />
+            <img src={twitterIcon} alt="Twitter" />
+          </div>
         </div>
       </div>
 
       {/* Sección final con derechos y desarrollador */}
       <div className={styles.bottomSection}>
-        <a className={styles.reviewButton}>
-          Calificá nuestro servicio
-        </a>
-        <p>©2024 TOSTADO CAFÉ CLUB | Todos los derechos reservados.</p>
-        <p className={styles.developer}>
-          Desarrollado por: <span>x</span>
-        </p>
+        <a className={styles.reviewButton}>Calificá nuestro servicio</a>
+
+        <div className={styles.secondMiddleSection}>
+          <p className={styles.developer}>
+            Desarrollado por: <span>YANA Web Studio</span>
+          </p>
+          <p className={styles.developer_two}>©2024 TOSTADO CAFÉ CLUB | Todos los derechos reservados.</p>
+        </div>
       </div>
     </footer>
   );
