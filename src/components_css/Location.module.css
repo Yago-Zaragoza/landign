@@ -13,7 +13,7 @@
   background-repeat: no-repeat; /* Evita repeticiones */
 }
 
-.textContainer, 
+.textContainer,
 .mapContainer {
   position: relative; /* Asegura que estos elementos estén sobre la imagen */
   z-index: 1; /* Asegura que estén en la parte superior */
@@ -117,4 +117,29 @@
 .clockIcon {
   color: #fac700; /* Color amarillo del reloj */
   height: 30px;
+}
+
+@media (max-width: 1024px) {
+  .locationContainer {
+    margin-top: 150px;
+    margin-right: 60px;
+    margin-left: 60px;
+    background-position: 9vw center;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+  
+  .mapContainer {
+    height: 35vh;
+  }
+  
+  .scheduleText, .scheduleHours {
+    font-size: 30px;
+  }
 }

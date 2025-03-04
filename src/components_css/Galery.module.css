@@ -73,3 +73,19 @@
   object-fit: cover;
   border-radius: 0;
 }
+
+@media (max-width: 1024px) {
+  .topText {
+    margin-top: 15vh;
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+
+  .bottomText {
+    font-size: 45px;
+    letter-spacing: 3px;
+    width: 520px;
+    height: 80px;
+    top: 64%;
+  }
+}

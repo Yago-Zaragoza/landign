@@ -201,3 +201,46 @@
 .developer_two {
   margin-bottom: 6vh;
 }
+
+@media (max-width: 1024px) {
+  .logoTextTitle {
+    font-size: 26px;
+  }
+
+  .logoTextSubTitle {
+    font-size: 17px;
+  }
+
+  .logoContainer {
+    padding-left: 5vw;
+    padding-right: 4vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+  }
+
+  .navMenu {
+    font-size: 18px;
+    gap: 25px;
+    letter-spacing: 1px;
+  }
+
+  .contactInfo {
+    font-size: 17px;
+  }
+
+  .menuButton {
+    font-size: 16px;
+  }
+
+  .reviewButton {
+    font-size: 16px;
+  }
+
+  .socialIcons img {
+    width: 30px;
+  }
+
+  .secondMiddleSection p {
+    font-size: 17px;
+  }
+}

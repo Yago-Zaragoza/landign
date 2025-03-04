@@ -37,6 +37,8 @@ function Galery() {
         slidesPerView={3} // Muestra 3 imágenes a la vez
         loop={true}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
+        allowTouchMove={false} // Bloquea el deslizamiento manual
+        grabCursor={false} // No muestra el cursor de agarre
         className={styles.swiperContainer}
       >
         {firstRowImages.map((img, index) => (
@@ -61,6 +63,7 @@ function Galery() {
         slidesPerView={3} // Muestra 3 imágenes a la vez
         loop={true}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
+        allowTouchMove={false} // Bloquea el deslizamiento manual
         className={styles.swiperContainer}
       >
         {secondRowImages.map((img, index) => (

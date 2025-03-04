@@ -1,7 +1,7 @@
 .sliderContainer {
   margin-right: 80px;
   margin-left: 80px;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .titleContainer {
@@ -115,6 +115,41 @@
   padding-right: 70px;
   padding-top: 20px;
   padding-bottom: 20px;
-  max-width: 20vw;
   box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1024px) {
+  .sliderContainer {
+    margin-right: 60px;
+    margin-left: 70px;
+    margin-top: 40px;
+  }
+
+  .titleContainer {
+    max-width: 53vw;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .productTitle {
+    font-size: 19px;
+  }
+
+  .underline_one {
+    width: 38vw;
+  }
+
+  .underline_two {
+    margin-left: 7.5vw;
+  }
+
+  .menuButton {
+    font-size: 22px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
