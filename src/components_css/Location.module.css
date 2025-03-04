@@ -119,6 +119,18 @@
   height: 30px;
 }
 
+/* Responsivo */
+
+@media (min-width: 2560px) {
+  .locationContainer {
+    background-position: 24vw center;
+  }
+  
+  .textContainer {
+    max-width: 22%;
+  }
+}
+
 @media (max-width: 1024px) {
   .locationContainer {
     margin-top: 150px;
@@ -134,12 +146,13 @@
   .description {
     font-size: 18px;
   }
-  
+
   .mapContainer {
     height: 35vh;
   }
-  
-  .scheduleText, .scheduleHours {
+
+  .scheduleText,
+  .scheduleHours {
     font-size: 30px;
   }
 }

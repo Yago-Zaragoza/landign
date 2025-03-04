@@ -10,17 +10,29 @@ function Start() {
       >
         <div className={styles.overlay}>
           <div className={styles.content}>
-          <h1 className={styles.playfairHighlight}>
-            <span className={styles.Highlight}>UN CAFÉ</span>
-            <span className={styles.secondHighlight}>UNA EXPERIENCIA</span>
-          </h1>
+            <h1 className={styles.playfairHighlight}>
+              <span className={styles.Highlight}>UN CAFÉ</span>
+              <span className={styles.secondHighlight}>UNA EXPERIENCIA</span>
+            </h1>
             <p className={styles.italicText}>
-              <span className={styles.Dynalight}>Café </span><span>de especialidad preparado con pasión</span>
+              <span className={styles.Dynalight}>Café </span>
+              <span>de especialidad preparado con pasión</span>
             </p>
             <p className={styles.description}>
-              <span className={styles.secondDescription}>VISÍTANOS Y DISFRUTÁ UNA TAZA PERFECTA EN UN AMBIENTE ACOGEDOR</span>
+              <span className={styles.secondDescription}>
+                VISÍTANOS Y DISFRUTÁ UNA TAZA PERFECTA EN UN AMBIENTE ACOGEDOR
+              </span>
             </p>
-            <button className={styles.menuButton}>Ver menú</button>
+
+            {/* Enlace con estilo de botón y sin subrayado */}
+            <a
+              href="https://drive.google.com/file/d/12KfhmwwxjmziyIvhTmpgKEug1evRfmDF/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.menuButton}
+            >
+              Ver menú
+            </a>
           </div>
         </div>
       </section>

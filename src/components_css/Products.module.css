@@ -99,6 +99,7 @@
 
 .menuButton {
   margin-top: 5vh;
+  text-decoration: none; /* Quita la línea de enlace */
   background-color: #fac700;
   color: black;
   border: none;
@@ -116,6 +117,27 @@
   padding-top: 20px;
   padding-bottom: 20px;
   box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menuButton:hover {
+  background-color: #ca9f01;
+}
+
+/* Responsivo */
+
+@media (min-width: 2560px) {
+  .titleContainer {
+    max-width: 28vw;
+  }
+
+  .underline_one {
+    width: 19.4vw;
+  }
+
+  .underline_two {
+    margin-left: 4.3vw;
+    width: 12vw;
+  }
 }
 
 @media (max-width: 1024px) {

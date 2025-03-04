@@ -98,7 +98,14 @@ function Products() {
         <div className={styles.swiperButtonNext}></div>
       </div>
       <div className={styles.menuButtonContainer}>
-        <button className={styles.menuButton}>Ver menú</button>
+        <a
+          href="https://drive.google.com/file/d/12KfhmwwxjmziyIvhTmpgKEug1evRfmDF/view"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.menuButton}
+        >
+          Ver menú
+        </a>
       </div>
     </div>
   );

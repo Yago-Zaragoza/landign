@@ -136,6 +136,13 @@
 }
 
 /* Responsivo */
+
+@media (min-width: 2560px) {
+  .quoteBox {
+    margin-left: 4.6vw;
+  }
+}
+
 @media (max-width: 1024px) {
   .quoteBox {
     margin-left: 7vw;
@@ -144,14 +151,16 @@
   }
 
   .lineContainer {
-    margin: 10vh 5vw
+    margin: 10vh 5vw;
   }
 
   .textContainer {
     font-size: 20px;
+    width: 82%;
   }
 
   .footer {
     margin-top: 2vh;
+    width: 82%;
   }
 }

@@ -74,6 +74,17 @@
   border-radius: 0;
 }
 
+/* Estilos responsivos */
+
+@media (min-width: 2560px) {
+  .image {
+    height: 70vh;
+  }
+
+  .bottomText {
+    top: 60%;
+  }
+}
 @media (max-width: 1024px) {
   .topText {
     margin-top: 15vh;

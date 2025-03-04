@@ -77,6 +77,7 @@ h1 {
 
 .menuButton {
   margin-top: 35vh;
+  text-decoration: none; /* Quita la línea de enlace */
   background-color: #fac700;
   color: black;
   border: none;
@@ -96,7 +97,7 @@ h1 {
 }
 
 .menuButton:hover {
-  background-color: #e6b500;
+  background-color: #ca9f01;
 }
 
 .playfairHighlight {
@@ -132,10 +133,17 @@ h1 {
 }
 
 /* Responsivo */
+
+@media (min-width: 2560px) {
+  .secondDescription {
+    max-width: 27vw;
+  }
+}
+
 @media (max-width: 1024px) {
   .secondDescription {
     max-width: 60vw;
-  } 
+  }
 }
 
 @media (max-width: 768px) {
